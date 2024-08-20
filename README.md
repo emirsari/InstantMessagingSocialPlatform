@@ -26,8 +26,10 @@
   <ol>
     <li><a href="#overview">Overview</a></li>
     <li><a href="#key-features">Key Features</a></li>
+  <ul>
     <li><a href="#technical-details">Technical Details</a></li>
     <li><a href="#technologies-used">Technologies Used</a></li>
+  </ul>
     <li><a href="#authors">Authors</a></li>
     <li><a href="#learning-outcomes">Learning Outcomes</a></li>
   </ol>
@@ -35,58 +37,48 @@
 
 <h2>Overview</h2>
 <p>  
-&emsp; The "Restaurant Menu" project is a console application designed to simulate a restaurant menu experience. It provides users with four main options: displaying the menu, searching for items, placing an order, and exiting the program. The menu contains 58 distinct items, categorized into 33 foods and 25 drinks, with detailed information about each item, such as ingredients, kind, content warnings, and cost.
-
-&emsp; The project was developed using Java 16 and Eclipse IDE 4.26.0. It consists of 15 classes, including 3 enum classes and 11 general-purpose classes. The core data structures used are Binary Search Trees for storing menu items and Linked Lists for managing ingredients and content warnings.
-
-&emsp; This project was a collaborative effort between two developers, focusing on different aspects of the menu, with shared responsibilities for data structure integration.
+&emsp; The Instant Messaging Social Platform project was developed as part of a database management system course. The project's main goal was to design and implement a database for an instant messaging social platform, similar to popular platforms like Discord or Slack. This platform allows users to interact within various servers and chat rooms, offering features such as user roles, bots, server boosts, and messaging functionalities.
   <br>
   
   <p align="center"> 
-    <img alt="Java | OpenJDK" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=000000&style=plastic" height="32"> 
-    <img alt="Eclipse IDE" src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=2C2255&style=plastic" height="32">
+    <img alt="SQL" src="" height="32"> 
+    <img alt="Oracle SQL Developer" src="" height="32">
   </p>
 </p>
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2>Key Features</h2>
-<p>  
-&emsp; To use this console application, download and run the executable JAR file provided. Once launched, the user interacts with the menu via the console, selecting options to view the menu, search for specific items, place orders, or exit the application.
-</p>
+<ul>
+  <li><b>User-Server-Bot Relationship:</b> The database structure revolves around users, servers, and bots. Users can join multiple servers, each with chat rooms where they can send messages. Bots provide additional functionality, and users can purchase boosts to enhance server capabilities. </li>
+  <li><b>Role Management:</b> Users are assigned specific roles within servers, allowing them to manage server members. Roles define permissions such as inviting, removing, or banning users. </li>
+  <li><b>Server Boosts:</b> Users can boost servers to unlock additional features, such as increased upload size limits and more emoji slots. </li>
+  <li><b>Bot Integration:</b> Bots can be integrated into servers, providing unique functionalities like music playback or chat moderation. </li>
+  <li><b>Payment System:</b> The platform supports a payment system where users can purchase server boosts and bots using stored credit card information. </li>
+</ul>
 
 <h3>Technical Details</h3>
-  <ul>
-    <li> Java 16: Required to compile and run the application. </li>
-    <li> Eclipse IDE 4.26.0: Used during development, but not required for execution. </li>
-  </ul>
-
+<ul>
+  <li><b>Database Design:</b> The project involved designing an Entity-Relationship (E-R) diagram and a schema diagram to map out the database structure. The database was created using Oracle SQL Developer. </li>
+  <li><b>SQL Implementation:</b> The database was implemented with SQL, including CREATE TABLE, ALTER TABLE, INSERT INTO, and various SELECT queries to manage and retrieve data. </li>
+  <li><b>Query Operations:</b> The project includes complex SQL queries, such as joins, nested queries, set operations, and aggregate functions. These queries manage user roles, server memberships, and financial transactions. </li>
+  <li><b>Relational Algebra & Calculus:</b> The project also demonstrates the use of relational algebra and calculus for querying the database, showcasing the depth of understanding in database theory. </li>
+</ul>
+  
 <h3>Technologies Used</h3>
-  <ol>
-    <li>Ensure that Java 16 is installed on your system. </li>
-    <li>Download the RestaurantMenu.jar file. </li>
-    <li>Open a terminal and navigate to the directory where the JAR file is located. </li>
-    <li>Run the application using the command: java -jar RestaurantMenu.jar. </li>
-  </ol>
+<ul>
+  <li><b>Database Management:</b> Oracle SQL Developer </li>
+  <li><b>Programming Languages:</b> SQL </li>
+  <li><b>Database Theory:</b> Relational Algebra and Relational Calculus </li>
+</ul>
+<br>
 
 <h2>Authors</h2>
-<!--
-Provide more in-depth information as well as GitHub profile links
--->
 <ul>
-    <li> Emir Sarı </li>
-    <li> Arda Özdemir </li>
+  <li><b>Emir Sarı:</b>  Co-designed the E-R and schema diagrams, contributed to the creation of tables, statements, and queries. </li>
+  <li><b>Arda Özdemir:</b>  Co-designed the E-R and schema diagrams, worked on the SQL statements and queries. </li>
 </ul>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2>Learning Outcomes</h2>
-<!--
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
--->
+<p>&emsp; This project provided hands-on experience in database design and implementation, enhancing skills in SQL, database management, and understanding complex database relationships. It also involved teamwork and collaboration in a technical environment.</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
